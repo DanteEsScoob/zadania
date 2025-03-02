@@ -12,7 +12,7 @@ namespace Nauka;
             var d = 2l;
             var b = 1.0;
             var c = 1.5f;
-            var done = false;
+            var done = true;
             while (!done)
             {
                 Console.WriteLine("Hello World!");
