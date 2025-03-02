@@ -14,9 +14,13 @@ namespace Nauka;
         public static int tabAnalyzer(int[] arr)
         {
             var res = 0;
+            var temp = arr[0];
             for (int i = 0; i < arr.Length; i++)
             {
-                res += arr[i];
+                if (arr[i] > temp)
+                {
+                    temp = arr[i];
+                }
             }
             return res;
         }
