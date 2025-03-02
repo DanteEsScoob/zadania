@@ -17,14 +17,15 @@ namespace Nauka;
             {
                 Console.WriteLine("Hello World!");
             }
-            if (!done)
+            if (done)
             {
                 Console.WriteLine("Hello There!");
-                
+                done = false;
             }
             else
             {
                 Console.WriteLine("General Kenobi");
+                done = true;
             }
 
 
