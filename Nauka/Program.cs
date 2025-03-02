@@ -21,12 +21,7 @@ namespace Nauka;
             {
                 Console.WriteLine("Hello There!");
                 done = false;
-            }
-            else
-            {
-                Console.WriteLine("General Kenobi");
-                done = true;
-            }
+                }
 
 
         }
