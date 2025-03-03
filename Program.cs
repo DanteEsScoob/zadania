@@ -8,25 +8,20 @@ namespace Nauka;
     {
         static void Main(string[] args)
         {
-            var a = 1;
-            var d = 2l;
-            var b = 1.0;
-            var c = 1.5f;
-            var done = false;
-            while (!done)
-            {
-                Console.WriteLine("Hello World!");
-            }
-            if (!done)
-            {
-                Console.WriteLine("Hello There!");
-                
-            }
-            else
-            {
-                Console.WriteLine("General Kenobi");
-            }
+        
+        }
 
-
+        public static int tabAnalyzer(int[] arr)
+        {
+            var res = 0;
+            var temp = arr[0];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > temp)
+                {
+                    temp = arr[i];
+                }
+            }
+            return res;
         }
     }
